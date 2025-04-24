@@ -9,14 +9,13 @@ Will be updated with more tools for .Net solution AI management and automation.
 - [ModelContextProtocol](https://www.nuget.org/packages/ModelContextProtocol) — Official C# SDK for Model Context Protocol servers and clients. [GitHub](https://github.com/modelcontextprotocol/csharp-sdk)
 
 ## Features
-- **Cross-platform**: Works on Windows, Linux, and macOS (requires PowerShell 7+)
-- **MCP stdio transport**: Integrates with any MCP-compatible client (Cursor, Copilot, Claude, etc.)
-- **No output pollution**: Only protocol messages on stdout, all logs/errors to file
-- **Robust logging**: All errors and script activity are logged to `mcp_errors.log` (C#) and `mcp_debug.log`/`mcp_data_debug.log` (PowerShell)
-- **Automatic script discovery**: Finds the PowerShell scripts in all relevant locations
-- **Absolute or relative solution file support**
-- **Data extraction**: Extracts all Models, Entities, and Types (enums) with structure, per project, with caching
-- **AI optimized**: Reduced output only to necessary for AI to optimize input token use
+
+- Extracts Models, Entities, Enums, and Interfaces from any .NET solution
+- Gives AI agents full project structure/context to avoid redundant generation
+- Ready-to-use with Cursor, Copilot, Claude, or any MCP-compatible tool
+- Fast with caching, clean output (no stdout noise), full logging to files
+- Auto-discovers scripts, supports relative/absolute `.sln` paths
+- Cross-platform (Windows, macOS, Linux), requires PowerShell 7+
 
 ## Output Format Examples
 
