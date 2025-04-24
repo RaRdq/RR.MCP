@@ -1,0 +1,24 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+
+# PowerShell
+*.ps1~
+*.psm1~
+*.psd1~
+
+# Logs
+*.log
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# MCP
+*_output.json
